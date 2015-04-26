@@ -1,12 +1,12 @@
 {
-    "contents" : "Developing Data Products\n\nFollowing Files Submitted for Assignment in Github: ui.R, server.R and README.md\n\nGuide to run the project\n\n1.Clone https://github.com/mohamed-hardi/DDP to your directory.\n\n\n2.Open your RStudio.\n\n\n3.Set your working directory using setwd() command.\n\n\n4.Load Shiny Library using library(shiny). Make sure you installed devtools packages.\n\n\n5.Execute command runApp() to run the application. Make sure you are in the folder where you copied ui.R and server.R files.\n\n\n6.runApp() should bring the application in browser.\n\n\nThe application is deployed on ShinyApps.io at http://mhardi.shinyapps.io/DDP-PROJECT/\n  \n  The R Presenter HTML5 file is located at https://github.com/mohamed-hardi/DDP/blob/master/DDP-Presentation-rpubs.html\n",
+    "contents" : "Developing Data Products:\n\nFollowing Files Submitted for Assignment in Github: ui.R, server.R and README.md\n\nGuide to run the project:\n\n1.Clone https://github.com/mohamed-hardi/DDP to your directory.\n\n2.Open your RStudio.\n\n3.Set your working directory using setwd() command.\n\n4.Load Shiny Library using library(shiny). Make sure you installed devtools packages.\n\n5.Execute command runApp() to run the application. Make sure you are in the folder where you copied ui.R and server.R files.\n\n6.runApp() should bring the application in browser.\n\nThe application is deployed on ShinyApps.io at http://mhardi.shinyapps.io/DDP-PROJECT/\n  \nThe R Presenter HTML5 file is located at https://github.com/mohamed-hardi/DDP/blob/master/DDP-Presentation-rpubs.html\n",
     "created" : 1430056584692.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1139012566",
+    "hash" : "1646419795",
     "id" : "DBAAD623",
-    "lastKnownWriteTime" : 1430056735,
+    "lastKnownWriteTime" : 1430056819,
     "path" : "~/GitHub/DDP/README.md",
     "project_path" : "README.md",
     "properties" : {
