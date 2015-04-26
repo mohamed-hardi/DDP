@@ -1,0 +1,16 @@
+{
+    "contents" : "library(shiny)\n\nbmifunc <- function(height, weight){\n  bmi <- weight/(height/100)^2\n  if(bmi < 18.5) \"underweight\"\n  else if(bmi >= 18.5 & bmi < 25) \"optimal weight\"\n  else if(bmi >= 25 & bmi < 30) \"overweight\"\n  else \"obese\"\n}\n\nshinyServer(\n  function(input, output){\n    output$osex <- renderPrint({input$sex})\n    output$oheight <- renderPrint({paste(input$height,\"cm\",sep=\"\")})\n    output$oweight <- renderPrint({paste(input$weight,\"kg\",sep=\"\")})\n    output$diagnostic <- renderPrint({bmifunc(input$height, input$weight)})\n  }\n)",
+    "created" : 1430051457180.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4240019780",
+    "id" : "40F816CA",
+    "lastKnownWriteTime" : 1430051677,
+    "path" : "~/GitHub/DDP/server.R",
+    "project_path" : "server.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

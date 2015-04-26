@@ -1,0 +1,16 @@
+{
+    "contents" : "# This is a very simple app UI to calculate your BMI. \n\nlibrary(shiny)\n\nshinyUI(pageWithSidebar(\n  headerPanel(\"Calculating Your BODY MASS INDEX\"),\n  sidebarPanel(\n    h5(\"Your BMI is a measure of body fat based on your height and weight, it is useful indication if you are fit or obese\"),\n    selectInput(\"sex\", \"select your gender\", \n                choices = c(\"Female\" = \"Female\", \"Male\" = \"Male\") ,selected = \"Female\"),\n    numericInput(\"height\", \"input your height(cm)\", value=168),\n    numericInput(\"weight\", \"input your weight(kg)\", value=58),\n    submitButton(\"Submit\")\n  ),\n  mainPanel(\n    h3(\"Your Data:\"),\n    p(\"Sex:\"),\n    verbatimTextOutput(\"osex\"),\n    p(\"Height:\"),\n    verbatimTextOutput(\"oheight\"),\n    p(\"Weight:\"),\n    verbatimTextOutput(\"oweight\"),\n    h4(\"Testing result, you are:\"),\n    verbatimTextOutput(\"diagnostic\")\n  )\n))",
+    "created" : 1430051456827.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2615923406",
+    "id" : "D859B672",
+    "lastKnownWriteTime" : 1430051834,
+    "path" : "~/GitHub/DDP/ui.R",
+    "project_path" : "ui.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
