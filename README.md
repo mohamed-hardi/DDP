@@ -1,9 +1,6 @@
 Developing Data Products
 
-Following Files Submitted for Assignment in Github:
-  •ui.R
-•server.R
-•README.md
+Following Files Submitted for Assignment in Github: ui.R, server.R and README.md
 
 Guide to run the project
 
