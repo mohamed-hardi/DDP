@@ -1,0 +1,16 @@
+{
+    "contents" : "Coursera Developing Data Products Project\n========================================================\nauthor: Mohamed Hardi\ndate: 6 Apr 2015\n\nProject Summary\n========================================================\n\nThis is a simple applcation to compute the Body Mass Index (BMI) of a person\n\nBody Mass Index (BMI) is a simple index of weight-for-height that is commonly used to classify underweight, overweight and obesity in adults. It is defined as the weight in kilograms divided by the square of the height in metres (kg/m2). The following are the different classification standards:\n\nBMI <18.5 : Underweight\nBMI [18.5-25) : Optimal weight\nBMI [25-30) : Overweight\nBMI >=30 : Obese\n\nCalculating BMI\n========================================================\nBMI Is computed using the simple formula:\nBMI = Weight / (Height/100)^2.\nThe arbitrary value returned is the Index:\n\n```{r}\nweight <- 180\nheight <- 95\nbmi <- weight/(height/100)^2\n```\n\nChecking BMI Against Classification\n====================================\n```{r}\nbmifunc <- function(height, weight){\n    bmi <- weight/(height/100)^2\n    if(bmi < 18.5) \"underweight\"\n    else if(bmi >= 18.5 & bmi < 25) \"optimal weight\"\n    else if(bmi >= 25 & bmi < 30) \"overweight\"\n    else \"obese\"\n}\nbmifunc(180,95)\n```\nProject Hosted On Shiny\n========================================================\n\nTo test out the project, you can access this on Shiny at the following link:\n\n\"http://mhardi.shinyapps.io/DDP-PROJECT/\"\n\n\n\n",
+    "created" : 1430054396889.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "101120835",
+    "id" : "EDD9F326",
+    "lastKnownWriteTime" : 1430055586,
+    "path" : "~/GitHub/DDP/DDP-Presentation.Rpres",
+    "project_path" : "DDP-Presentation.Rpres",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_presentation"
+}

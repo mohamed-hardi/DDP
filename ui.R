@@ -7,9 +7,9 @@ shinyUI(pageWithSidebar(
   sidebarPanel(
     h5("Your BMI is a measure of body fat based on your height and weight, it is useful indication if you are fit or obese"),
     selectInput("sex", "select your gender", 
-                choices = c("Female" = "Female", "Male" = "Male") ,selected = "Female"),
-    numericInput("height", "input your height(cm)", value=168),
-    numericInput("weight", "input your weight(kg)", value=58),
+                choices = c("Female" = "Female", "Male" = "Male") ,selected = "Male"),
+    numericInput("height", "input your height(cm)", value=180),
+    numericInput("weight", "input your weight(kg)", value=95),
     submitButton("Submit")
   ),
   mainPanel(
